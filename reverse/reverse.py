@@ -51,6 +51,8 @@ class LinkedList:
             node.next_node = prev
             self.reverse_list(nxt, node)
 
+
+    # prints and test
     def show_results(self):
         current = self.head
 
